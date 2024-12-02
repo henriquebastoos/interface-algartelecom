@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algar Telecom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box">
+        <form action="http://localhost:3000/submit-form" method="POST">
+            <fieldset>
+                <legend><b>Geolocalização</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome da Promoção</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="descricao" id="descricao" class="inputUser" required>
+                    <label for="descricao" class="labelInput">Descrição da Promoção</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="categoria" id="categoria" class="inputUser" required>
+                    <label for="categoria" class="labelInput">Categoria da Promoção</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="localizacao" id="localizacao" class="inputUser" required>
+                    <label for="localizacao" class="labelInput">Latitude e Longitude da loja</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="raio" id="raio" class="inputUser" required>
+                    <label for="raio" class="labelInput">Raio de Alcance em metros</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="horario" id="horario" class="inputUser" required>
+                    <label for="horario" class="labelInput">Horário de Ativação e Desativação da Promoção</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="publico" id="publico" class="inputUser" required>
+                    <label for="publico" class="labelInput">Público-Alvo</label>
+                </div>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

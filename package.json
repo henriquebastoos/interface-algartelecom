@@ -1,0 +1,19 @@
+{
+    "name": "geolocalizacao-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node --watch server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "express": "^4.21.1",
+        "geolocalizacao-app": "file:",
+        "pg": "^8.13.1"
+    }
+}
